@@ -272,3 +272,29 @@ body.dark .hero-buttons .btn:hover {
 body.dark #hero {
   background: linear-gradient(135deg, #121212, #1a1a1a);
 }
+.project-card {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.project-card h3 {
+  margin-top: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.project-card ul.project-points {
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.project-card ul.project-points li {
+  list-style-type: disc;
+  margin-bottom: 6px;
+}
